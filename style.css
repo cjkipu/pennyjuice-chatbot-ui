@@ -1,0 +1,158 @@
+.container
+{
+    max-width: 500\ !important;
+    margin: auto;
+    margin-top: 2%;
+    font-family: sans-serif;
+    letter-spacing: 0.5px;
+}
+.msg-header
+{
+    border: 2px solid #f9bc60;
+    width: 45%;
+    height: 8%;
+    display: inline-block;
+    background-color: #ffffff;
+    border-radius: 5px;
+
+}
+.msg-header-img
+{
+    border-radius: 50%;
+    width: 50px;
+    margin-left: 5%;
+    margin-top: 12px;
+    float: left;
+}
+img
+{
+    max-width: 150%;
+    border-radius: 50%;
+}
+.active
+{
+    width: 120px;
+    float: left;
+    margin-top: 20px;
+}
+.active h4
+{
+    font-size: 20px;
+    margin-left: 60px;
+    color: #004643;
+}
+.header-icons
+{
+    width: 40px;
+    float: right;
+    margin-top: 15px;
+}
+.header-icons .fa
+{
+    color: #004643;
+    cursor: pointer;
+}
+.chat-page
+{
+    padding: 0 0 50px 0;
+}
+.msg-inbox
+{
+    border: 2px solid #f9bc60;
+    overflow: hidden;
+    padding-bottom: 30px;
+    border-radius: 5px;
+    width: 45%;
+}
+.chats
+{
+    padding: 25px 10px 0 20px;
+}
+.msg-page
+{
+    height: 450px;
+    overflow-y: auto;
+}
+.received-chats-img
+{
+    display: inline-block;
+    width: 15px;
+    float: left;
+}
+.received-msg
+{
+    display: inline-block;
+    padding: 0 0 0 10px;
+    vertical-align: top;
+    width: 92%;
+}
+.received-msg-inbox
+{
+    width: 57%;
+}
+.received-msg-inbox p
+{
+    font-size: 15px;
+    background: #efefef none repeat scroll 0 0;
+    border-radius: 10px;
+    color: #004643;
+    margin: 0;
+    margin-left: 15px;
+    padding: 5px 10px 5px 12px;
+    width: 100%;
+}
+.outgoing-chats
+{
+   overflow: hidden;
+}
+.outgoing-chats-msg
+{
+    float: left;
+    width: 46%;
+    margin-left: 45%;
+}
+.outgoing-chats-msg p
+{
+    font-size: 15px;
+    background: #f9bc60 none repeat scroll 0 0;
+    opacity: 150%;
+    border-radius: 10px;
+    color: #ffffff;
+    margin: 0;
+    margin-right: 15px;
+    padding: 5px 10px 5px 12px;
+    width: 100%;
+}
+.outgoing-chats-img
+{
+    display: inline-block;
+    width: 15px;
+    margin-left: 10px;
+}
+.msg-bottom
+{
+    position: relative;
+    height: 10%;
+    width: 45%;
+}
+.input-group
+{
+    border: 2px solid #f9bc60;
+    border-radius: 5px;
+    outline: none !important;
+}
+.form-control
+{
+    border: none !important;
+    border-radius: 5px !important;
+}
+.input-group-text
+{
+    color: #f9bc60;
+    cursor: pointer;
+}
+.input-group-text .fa
+{
+    color: #004643;
+    cursor: pointer;
+}
